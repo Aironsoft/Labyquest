@@ -1,0 +1,2 @@
+C:\Users\Airon\Documents\Visual Studio 2015\Projects\Labyquest\SimpleChat\obj\Debug\Labyquest.njsprojResolveAssemblyReference.cache
+C:\Users\Airon\Documents\Visual Studio 2015\Projects\Labyquest\SimpleChat\bin\Microsoft.NodejsTools.WebRole.dll

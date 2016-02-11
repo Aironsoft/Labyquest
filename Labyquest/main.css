@@ -1,0 +1,34 @@
+.demo {
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    color: #4F6B72;
+    font-family: "PT Sans", Verdana, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.chat .messages{
+    height: 300px;
+    border: 1px solid #d4d4d4;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+}
+
+.chat .messages .user{
+    color: #B22222;
+}
+
+.chat .message{
+    width: 70%;
+}
+
+.chat .panel{
+    margin-top: 8px;
+}
+
+#message_text{
+    width: 60%;
+    display: inline-block;
+    margin-left: 8px;
+}

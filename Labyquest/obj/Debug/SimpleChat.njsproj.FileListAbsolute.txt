@@ -1,0 +1,2 @@
+c:\users\airon\documents\visual studio 2015\Projects\SimpleChat\SimpleChat\obj\Debug\SimpleChat.njsprojResolveAssemblyReference.cache
+c:\users\airon\documents\visual studio 2015\Projects\SimpleChat\SimpleChat\bin\Microsoft.NodejsTools.WebRole.dll

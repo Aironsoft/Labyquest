@@ -1,0 +1,10 @@
+{
+  "name": "SimpleChat",
+  "version": "0.0.0",
+  "description": "SimpleChat",
+  "main": "app.js",
+  "author": {
+    "name": "Airon",
+    "email": ""
+  }
+}
