@@ -32,36 +32,3 @@
     display: inline-block;
     margin-left: 8px;
 }
-
-
-/////////
-#masked, #timerpanel {
-    vertical-align: middle;
-    display: none;
-}
-#timer {
-    font-weight: bold;
-    color: red;
-    font-size: 16px;
-    vertical-align: middle;
-}
-#board {}
-#board-table td {
-    height: 100px;
-    width: 100px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 42pt;
-    font-weight: bold;
-    font-family: Arial;
-    cursor: pointer;
-}
-
-#stats {
-    width: 320px;
-}
-#stats > div {
-    width: 300px;
-    padding: 3px;
-    margin: 1px;
-}

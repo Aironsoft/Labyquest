@@ -53,7 +53,6 @@
     <Folder Include="mazes\" />
     <Folder Include="mazes\css\" />
     <Folder Include="mazes\js\" />
-    <Folder Include="models\" />
     <Folder Include="Scripts\" />
     <Folder Include="Scripts\typings\" />
     <Folder Include="Scripts\typings\node\" />
@@ -63,7 +62,6 @@
     <Compile Include="appChat.js" />
     <Compile Include="Labyrint\chat.js" />
     <Compile Include="mazes\js\mazes.js" />
-    <Compile Include="models\maze.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
