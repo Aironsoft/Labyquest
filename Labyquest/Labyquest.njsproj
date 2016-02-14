@@ -13,7 +13,7 @@
     <ProjectGuid>2cbeb7d3-9567-4089-9f67-f816efe96efa</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>appChat.js</StartupFile>
+    <StartupFile>serverStart.js</StartupFile>
     <StartWebBrowser>True</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -36,13 +36,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="indexRun.html" />
     <Content Include="mazes\css\mazepage.css" />
     <Content Include="mazes\css\mazes.css" />
     <Content Include="mazes\maze.html" />
     <Content Include="static\favicon.ico" />
     <TypeScriptCompile Include="Scripts\typings\node\node.d.ts" />
-    <Content Include="Labyrint\index.html" />
+    <Content Include="Labyrint\clientStart.html" />
     <Content Include="Labyrint\main.css" />
     <Content Include="main.css" />
     <Content Include="package.json" />
@@ -50,18 +49,23 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Labyrint\" />
+    <Folder Include="Labyrint\Libs\" />
     <Folder Include="mazes\" />
     <Folder Include="mazes\css\" />
     <Folder Include="mazes\js\" />
+    <Folder Include="models\" />
     <Folder Include="Scripts\" />
     <Folder Include="Scripts\typings\" />
     <Folder Include="Scripts\typings\node\" />
     <Folder Include="static\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="appChat.js" />
+    <Compile Include="Labyrint\Libs\jquery.min.js" />
+    <Compile Include="Labyrint\Libs\socket.io.js" />
+    <Compile Include="serverStart.js" />
     <Compile Include="Labyrint\chat.js" />
     <Compile Include="mazes\js\mazes.js" />
+    <Compile Include="models\Labyquest.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="robots" content="noindex,nofollow"/>
+    <title>Демо простой чат с помощью nodejs и socket.io</title>
+</head>
+<body>
+<div class="demo">
+    <a class="permalink" href="http://www.itlessons.info/nodejs/simple-chat-with-nodejs-and-socket-io/">← cсылка на статью</a>
+
+    <h1>Демо простой чат с помощью nodejs и socket.io</h1>
+
+    <div class="chat">
+        <div class="messages" id="messages"></div>
+
+        <div class="panel">
+            <span class="nick"></span>
+            <input type="text" name="message_text" id="message_text">
+            <button type="button" id="message_btn">Отправить</button>
+        </div>
+    </div>
+</div>
+
+    <div id="stats" class="ui-widget" valign="top"/><br />
+    <button id="reload">Новая игра</button><br /><br /></div>
+
+<td id="board" class="ui-widget" valign="top">
+	<div id="masked" class="ui-widget-shadow ui-corner-all ui-widget-overlay"></div>
+	<div id="timerpanel">
+		Время до конца хода:
+		<span id="timer">15</span> сек.
+	</div>
+	<table class="ui-widget ui-corner-all" cellpadding="0" cellspacing="0" align="left" id="board-table"></table>
+</td>
+
+<script src="Libs/jquery.min.js" type="text/javascript"></script>
+<script src="Libs/socket.io.js" type="text/javascript"></script>
+<script src="chat.js" type="text/javascript"></script>
+</body>
+</html>
